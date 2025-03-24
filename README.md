@@ -11,8 +11,8 @@ O primeiro passo para iniciar o desenvolvimento é a criação de um novo projet
 3. Importando o Material Design:
 Para utilizar os recursos e funcionalidades do Flutter, é necessário importar pacotes Dart que auxiliam no desenvolvimento. Neste aplicativo, o Material Design será utilizado. O Material Design é um sistema adaptável de diretrizes, componentes e ferramentas que suportam as melhores práticas de design de interface de usuário definidas pelo Google, sendo uma recomendação para desenvolvimento Web e Mobile. A importação é realizada adicionando a seguinte linha no início do arquivo main.dart:
 
-import 'package:flutter/material.dart';
-
+       import 'package:flutter/material.dart';
+   
 Utilizar um framework como o Flutter acelera o desenvolvimento através do uso de códigos já existentes.
 
 5. Estrutura Básica do Aplicativo:
@@ -20,8 +20,8 @@ O ponto de entrada para qualquer aplicativo Dart é a função main(). Dentro de
 
 O código inicial do arquivo main.dart:
 
-import 'package:flutter/material.dart';
-import 'package:jokenpo/jogo.dart';
+    import 'package:flutter/material.dart';
+    import 'package:jokenpo/jogo.dart';
 
     void main() {
     runApp(MaterialApp(
@@ -37,19 +37,19 @@ Visando boas práticas e organização do código, uma nova classe Dart chamada 
 
 StatefulWidget:
 
-class Jogo extends StatefulWidget {
+    class Jogo extends StatefulWidget {
 
-  const Jogo({Key? key}) : super(key: key);
+      const Jogo({Key? key}) : super(key: key);
 
-  @override
+      @override
   
-  State`<Jogo>` createState() => _JogoState();
+      State`<Jogo>` createState() => _JogoState();
 
-}
+    }
 
-class _JogoState extends State`<Jogo>` {
+    class _JogoState extends State`<Jogo>` {
 
-}
+    }
 
 É recomendado que o nome da classe seja o mesmo nome do arquivo .dart, com a primeira letra em maiúscula.
 

@@ -46,7 +46,9 @@ class _JogoState extends State<Jogo> {
 
 6. Utilizando:
 Dentro do método build() da classe _JogoState, o widget Scaffold é retornado. O Scaffold fornece uma estrutura básica para a tela, abrangendo toda a área disponível e organizando visualmente os elementos da interface do usuário. Ele permite a criação de estruturas base como AppBar (barra superior) e body (corpo da tela).
-O esqueleto inicial da classe Jogo com o Scaffold
+
+O esqueleto inicial da classe Jogo com o Scaffold:
+
 class _JogoState extends State<Jogo> {
   @override
   Widget build(BuildContext context) {

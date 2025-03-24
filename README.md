@@ -26,6 +26,7 @@ import 'package:jokenpo/jogo.dart';
 void main() {
 
   runApp(MaterialApp(
+  
     home: Jogo(),
     
   ));

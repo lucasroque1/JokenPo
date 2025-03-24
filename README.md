@@ -329,4 +329,4 @@ jogo.dart (Parte 2):
          }
        }
 
-Este documento detalha a criação de um aplicativo JokenPo em Flutter, abrangendo desde a configuração inicial até a implementação da lógica do jogo e a exibição dos resultados, incluindo trechos de código e a explicação do processo de adição e referência de imagens no projeto, garantindo o seu correto "versionamento" dentro da estrutura do Flutter com base nas informações fornecidas nos documentos "PDF 2 - App JokenPo em Flutter - Parte 1.pdf" e "PDF 3 - App JokenPo em Flutter - Parte 2.pdf
+Este documento detalha a criação de um aplicativo JokenPo em Flutter, Desde a configuração inicial até a implementação da lógica do jogo e a exibição dos resultados.

@@ -32,7 +32,7 @@ void main() {
   
 }
 
-5. Criando a Classe:
+6. Criando a Classe:
 Visando boas práticas e organização do código, uma nova classe Dart chamada Jogo é criada no arquivo jogo.dart dentro da pasta lib. Para criar uma interface de usuário dinâmica, que pode mudar seu estado durante a execução, um StatefulWidget é utilizado. Ao utilizar a opção de inserir um StatefulWidget, o Flutter automaticamente adiciona a estrutura de classe necessária. A classe Jogo é definida como um
 
 StatefulWidget:
@@ -49,7 +49,7 @@ class _JogoState extends State<Jogo> {
 
 É recomendado que o nome da classe seja o mesmo nome do arquivo .dart, com a primeira letra em maiúscula.
 
-6. Utilizando:
+7. Utilizando:
 Dentro do método build() da classe _JogoState, o widget Scaffold é retornado. O Scaffold fornece uma estrutura básica para a tela, abrangendo toda a área disponível e organizando visualmente os elementos da interface do usuário. Ele permite a criação de estruturas base como AppBar (barra superior) e body (corpo da tela).
 
 O esqueleto inicial da classe Jogo com o Scaffold:

@@ -10,10 +10,12 @@ O primeiro passo para iniciar o desenvolvimento é a criação de um novo projet
 
 3. Importando o Material Design:
 Para utilizar os recursos e funcionalidades do Flutter, é necessário importar pacotes Dart que auxiliam no desenvolvimento. Neste aplicativo, o Material Design será utilizado. O Material Design é um sistema adaptável de diretrizes, componentes e ferramentas que suportam as melhores práticas de design de interface de usuário definidas pelo Google, sendo uma recomendação para desenvolvimento Web e Mobile. A importação é realizada adicionando a seguinte linha no início do arquivo main.dart:
+
 import 'package:flutter/material.dart';
+
 Utilizar um framework como o Flutter acelera o desenvolvimento através do uso de códigos já existentes.
 
-4. Estrutura Básica do Aplicativo:
+5. Estrutura Básica do Aplicativo:
 O ponto de entrada para qualquer aplicativo Dart é a função main(). Dentro desta função, o método runApp() do Flutter é chamado para iniciar o aplicativo e anexar o widget raiz à tela. Para utilizar as funcionalidades do Material Design, o widget MaterialApp() é passado para o runApp(). A propriedade home dentro do MaterialApp() define a rota que é exibida inicialmente quando o aplicativo é aberto.
 
 O código inicial do arquivo main.dart:

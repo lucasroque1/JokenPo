@@ -27,7 +27,9 @@ void main() {
 
   runApp(MaterialApp(
     home: Jogo(),
+    
   ));
+  
 }
 
 5. Criando a Classe:

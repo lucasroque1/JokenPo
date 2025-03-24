@@ -58,7 +58,6 @@ class _JogoState extends State<Jogo> {
       ),
       body: const Column(
         children: <Widget>[
-          // ... widgets do corpo ...
         ],
       ),
     );
@@ -120,7 +119,6 @@ void _opcaoSelecionada(String escolhaUsuario) {
   print("Escolha do App: " + escolhaApp);
   print("Escolha do Usuário: " + escolhaUsuario);
 
-  //Exibir na UI o resultado da escolha do APP
   switch (escolhaApp) {
     case "pedra":
       setState(() {
@@ -265,7 +263,6 @@ class _JogoState extends State<Jogo> {
             ),
           ),
           Image(image: _imagemApp),
-          //3 - Escolha uma opção abaixo:
           Padding(
             padding: EdgeInsets.only(top: 32, bottom: 16),
             child: Text(

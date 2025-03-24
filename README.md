@@ -43,7 +43,7 @@ class Jogo extends StatefulWidget {
 
   @override
   
-  State´<Jogo>´ createState() => _JogoState();
+  State`<Jogo>` createState() => _JogoState();
 
 }
 

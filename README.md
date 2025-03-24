@@ -38,13 +38,17 @@ Visando boas práticas e organização do código, uma nova classe Dart chamada 
 StatefulWidget:
 
 class Jogo extends StatefulWidget {
+
   const Jogo({Key? key}) : super(key: key);
 
   @override
+  
   State<Jogo> createState() => _JogoState();
+
 }
 
 class _JogoState extends State<Jogo> {
+
 }
 
 É recomendado que o nome da classe seja o mesmo nome do arquivo .dart, com a primeira letra em maiúscula.

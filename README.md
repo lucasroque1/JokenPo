@@ -49,7 +49,7 @@ Dentro do método build() da classe _JogoState, o widget Scaffold é retornado. 
 
 O esqueleto inicial da classe Jogo com o Scaffold:
 
-class _JogoState extends State(Jogo) {
+class _JogoState extends State<Jogo> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

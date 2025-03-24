@@ -23,14 +23,14 @@ O código inicial do arquivo main.dart:
 import 'package:flutter/material.dart';
 import 'package:jokenpo/jogo.dart';
 
-void main() {
-  runApp(MaterialApp(
+    void main() {
+    runApp(MaterialApp(
   
     home: Jogo(),
     
-  ));
+    ));
   
-}
+    }
 
 6. Criando a Classe:
 Visando boas práticas e organização do código, uma nova classe Dart chamada Jogo é criada no arquivo jogo.dart dentro da pasta lib. Para criar uma interface de usuário dinâmica, que pode mudar seu estado durante a execução, um StatefulWidget é utilizado. Ao utilizar a opção de inserir um StatefulWidget, o Flutter automaticamente adiciona a estrutura de classe necessária. A classe Jogo é definida como um
@@ -47,7 +47,7 @@ class Jogo extends StatefulWidget {
 
 }
 
-class _JogoState extends State<Jogo> {
+class _JogoState extends State`<Jogo>` {
 
 }
 
@@ -58,7 +58,7 @@ Dentro do método build() da classe _JogoState, o widget Scaffold é retornado. 
 
 O esqueleto inicial da classe Jogo com o Scaffold:
 
-class _JogoState extends State<Jogo> {
+class _JogoState extends State`<Jogo>` {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -66,7 +66,7 @@ class _JogoState extends State<Jogo> {
         title: const Text('JokenPO'),
       ),
       body: const Column(
-        children: <Widget>[
+        children: `<Widget>`[
         ],
       ),
     );
@@ -200,10 +200,10 @@ class Jogo extends StatefulWidget {
   const Jogo({Key? key}) : super(key: key);
 
   @override
-  State<Jogo> createState() => _JogoState();
+  State`<Jogo>` createState() => _JogoState();
 }
 
-class _JogoState extends State<Jogo> {
+class _JogoState extends State`<Jogo>` {
   var _imagemApp = AssetImage("images/padrao.png");
   var _resultadoFinal = "Boa sorte!!!";
 
@@ -262,7 +262,7 @@ class _JogoState extends State<Jogo> {
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
-        children: <Widget>[
+        children: `<Widget>`[
           Padding(
             padding: EdgeInsets.only(top: 32, bottom: 16),
             child: Text(
@@ -282,7 +282,7 @@ class _JogoState extends State<Jogo> {
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: <Widget>[
+            children: `<Widget>`[
               GestureDetector(
                 onTap: () => _opcaoSelecionada("pedra"),
                 child: const Image(

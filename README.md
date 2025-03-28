@@ -331,7 +331,6 @@ jogo.dart (Parte 2):
 
 Video:
 
-https://github.com/user-attachments/files/19507338/Gravacao.de.Tela.2025-03-28.110739
 
 
 

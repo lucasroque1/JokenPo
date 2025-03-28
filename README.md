@@ -331,7 +331,7 @@ jogo.dart (Parte 2):
 
 Video:
 
-
+https://github.com/user-attachments/assets/e3b8a4e0-5226-41a6-a7a7-f016a7861bb7
 
 
 Este documento detalha a criação de um aplicativo JokenPo em Flutter, Desde a configuração inicial até a implementação da lógica do jogo e a exibição dos resultados.
